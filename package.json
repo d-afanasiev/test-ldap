@@ -1,0 +1,31 @@
+{
+  "name": "test-ldap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/server.js",
+    "dev": "nodemon ./bin/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d-afanasiev/test-ldap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/d-afanasiev/test-ldap/issues"
+  },
+  "homepage": "https://github.com/d-afanasiev/test-ldap#readme",
+  "dependencies": {
+    "activedirectory": "^0.7.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.17.2",
+    "passport": "^0.5.2",
+    "passport-activedirectory": "^1.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
